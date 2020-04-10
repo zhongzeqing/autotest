@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGProject" parallel="false">
+    <test name="testngtest01">
+        <!--<classes>-->
+            <!--<class name="com.yunche.*"></class>-->
+        <!--</classes>-->
+        <groups>
+            <dependencies>
+                <group name="hostGroupList" depends-on="hostGroupAdd"/>
+                <group name="hostGroupDelete" depends-on="hostGroupList"/>
+            </dependencies>
+            <!--<run>-->
+                <!--<exclude name="hostGroupList" />-->
+            <!--</run>-->
+        </groups>
+
+        <packages>
+            <package name="com.yunche.*"></package>
+        </packages>
+
+    </test>
+</suite>

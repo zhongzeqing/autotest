@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.451" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zhongzeqing/IdeaProjects/TestNGProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zhongzeqing/IdeaProjects/TestNGProject"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/zhongzeqing/IdeaProjects/TestNGProject"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v_/5x0nx0pn3pj355jt34wd1wmh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zhongzeqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="http.proxyPort" value="8888"/>
+    <property name="surefire.test.class.path" value="/Users/zhongzeqing/IdeaProjects/TestNGProject/target/test-classes:/Users/zhongzeqing/IdeaProjects/TestNGProject/target/classes:/Users/zhongzeqing/.m2/repository/cn/hutool/hutool-http/5.0.6/hutool-http-5.0.6.jar:/Users/zhongzeqing/.m2/repository/cn/hutool/hutool-core/5.0.6/hutool-core-5.0.6.jar:/Users/zhongzeqing/.m2/repository/cn/hutool/hutool-json/5.0.6/hutool-json-5.0.6.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/zhongzeqing/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/zhongzeqing/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/zhongzeqing/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/zhongzeqing/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/zhongzeqing/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zhongzeqing/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/zhongzeqing/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/zhongzeqing/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/zhongzeqing/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/zhongzeqing/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/zhongzeqing/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/zhongzeqing/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/zhongzeqing/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/zhongzeqing/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/zhongzeqing/.m2/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar:/Users/zhongzeqing/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/zhongzeqing/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhongzeqing/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/zhongzeqing/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/zhongzeqing/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/zhongzeqing/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/zhongzeqing/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar:/Users/zhongzeqing/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar:/Users/zhongzeqing/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar:/Users/zhongzeqing/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/zhongzeqing/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/zhongzeqing/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/zhongzeqing/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/zhongzeqing/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/zhongzeqing/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/zhongzeqing/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/zhongzeqing/.m2/repository/com/aliyun/aliyun-java-sdk-rds/2.3.9/aliyun-java-sdk-rds-2.3.9.jar:/Users/zhongzeqing/.m2/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar:/Users/zhongzeqing/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhongzeqing/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.19.1/surefire-testng-utils-2.19.1.jar:/Users/zhongzeqing/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="user.home" value="/Users/zhongzeqing"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zhongzeqing"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.3 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="/Users/zhongzeqing/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="localRepository" value="/Users/zhongzeqing/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="https.proxyPort" value="8888"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="LogKitAdapterController_01" classname="com.yunche.testcase.logkit.LogKitAdapterController" time="0.568"/>
+  <testcase name="accountLogin" classname="com.yunche.testcase.Login" time="0.022"/>
+</testsuite>
